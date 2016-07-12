@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="edge" />
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+        *{margin:0; padding: 0;}
+        #box{width: 600px; height: 500px; background-color: #9f5; margin:0 auto;}
+        #box:after{content:1234567;}
+        #box>div{width: 100%;}
+        #header{; height: 100px; background-color: #f06;}
+        #header{}
+        /* #section ------------------------------*/
+        #section{; height: auto;  background-color: #fa0; border-bottom: 5px solid #ac2;}
+        #section:after{}
+            #article{width:67%; height: 150px; background-color: #05f; float:left;}
+            #container{width: 67%; height: 150px; background-color: :#4af; float:left;}
+            #aside{width:33%; height: 300px; background-color: #afc; float: right; margin-top: -150px;}
+        
+        /* // #section ------------------------------*/
+         #footer{; height: 100px; background-color: #0af;}
+        
+        :focus{background-color: #f3f; color:#fff;}
+        .clearfix{display: block; clear: both;}    
+    </style>
+</head>
+<body>
+    <div id="box">
+         <div id="header"><a href="#"></a>header</div><!-- header -->
+         <div id="section">
+             <div id="aside"><a href="#"></a>aside</div><!-- #aside -->
+             <div id="article"><a href="#"></a>article</div><!-- #article -->
+             <div id="container"><a href="#"></a>container</div>
+             <br class="clearfix" />
+         </div><!-- #section -->
+         <div id="footer"></div>
+    </div>
+</body>
+</html>

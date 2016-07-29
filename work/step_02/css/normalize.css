@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/* normallize.css */
+		html, body{margin: 0; padding: 0; color: #333; *zoom:1;}
+		h1,h2,h3,h4,h5,h6,p,div,ul,ol,li,dl,dt,dd{margin: 0; padding: 0;}
+		ul,ol,li{list-style: none;}
+		img{border: 0;}
+		a{text-decoration: none; color: #777;}
+		a{text-decoration: underline; color: #0cf;}
+		header, article, section, nav, footer, aside{display: block;}
+
+	</style>
+</head>
+<body>
+	
+</body>
+</html>

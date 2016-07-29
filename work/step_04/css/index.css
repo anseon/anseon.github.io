@@ -1,0 +1,61 @@
+
+
+.container{width: 100vw; height: 1920px; margin: 0 auto;}
+
+
+	#headBox{width: 1000px; height: 140px; margin: 0 auto;}
+	#headBox>h1{width: 132px; height: 35px; float: left; margin-top: 23px; }
+	
+	#unb{width: 482px; height: 10px; float: right;}
+	#unb>ul{width: 100%; height: 100%;}
+	#unb>ul>li{margin-right: 22px; margin-top: 25px; float: left;}
+	
+	#unb>ul>li.unb_01{width: 88px;}
+	#unb>ul>li.unb_02{width: 113px;}
+	#unb>ul>li.unb_03{width: 30px;}
+	#unb>ul>li.unb_04{width: 32px;}
+	#unb>ul>li.unb_05{width: 62px;}
+	#unb>ul>li.unb_06{width: 47px; margin-right: 0;}
+
+	#gnb{width: 100%; height: 15px; float: left; }
+	#gnb>ul{width: 100%; height: 100%; }
+	#gnb>ul>li{margin-right: 72px; margin-top: 40px; margin-bottom: 27px; float: left; }
+
+	#gnb>ul>li.gnb_01{width: 68px;}
+	#gnb>ul>li.gnb_02{width: 72px;}
+	#gnb>ul>li.gnb_03{width: 108px;}
+	#gnb>ul>li.gnb_04{width: 80px;}
+	#gnb>ul>li.gnb_05{width: 83px;}
+	#gnb>ul>li.gnb_06{width: 108px; margin-right: 71px;}
+	#gnb>ul>li.gnb_07{width: 52px; margin-right: 0;}
+
+	
+	#lnb{width: 55px; height: 1920px; background-color: #555861; 
+		position: fixed; left: 50%; top: 0; margin-left: 45.5vw; z-index: 500;}
+	
+	
+	#addBanner{width: 100%; height: 600px; position: relative;}
+
+	#context{width: 1000px; height: 326px; background-color: #fff; margin: 0 auto;}
+	.context_group_01{width: 1000px; height: 95px; float: left;}
+	.context_group_01>ul{width: 100%; height: 100%; }
+	.context_group_01>ul>li{margin-right: 10px; margin-top: 49px; float: left;}
+	.context_group_01>ul>li:last-child{margin-right: 0;}
+
+	.context_group_02{width: 1000px; height: 95px; float: left;}
+	.context_group_02>ul{width: 100%; height: 100%; }
+	.context_group_02>ul>li{margin-right: 10px; margin-top: 74px; margin-bottom: 59px; float: left;}
+	.context_group_02>ul>li:last-child{margin-right: 0;}
+
+	#fnb{width: 100%; height: 321px; background-color: #f7f7f7;}
+	#footBox{}
+
+	#company{width: 100%; height: 171px; background-color: #333; }
+	#company>ul{width: 100%; height: 100%; }
+	#company>ul>li{margin-top: 30px; margin-right: 96.7px;  float: left;  }
+	#company>ul>li:last-child{margin-right: 0;}
+
+	#location{}
+
+	#copyright{width: 100%; height: 91px; margin: 0 auto;}
+	#copyright>p{text-transform: uppercase; text-align: center;}

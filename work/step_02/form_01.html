@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <title>Document</title>
+<style>
+    *{margin: 0; padding: 0;}
+    form{width: 700px; height: 1000px; margin: 0 auto; border: 1px solid #777;}
+    fieldset{width: 100%; height: auto; background-color: #f5f5f5;}
+    .hidden{width: 0; height: 0; overflow: hidden; display: block; }
+    input:focus{outline:2px solid #fa0; outline-offset: 3px;}
+    input[type="submit"]{padding: 10px; background-color: #acc;}
+    input[type="reset"]{padding: 5px; background-color: #faa; border: 0;}
+    input[type="image"]{width: 50px; height: auto; cursor: pointer;}
+    
+</style>
+</head>
+
+<body>
+   <h1>form</h1> 
+     <form action="" method="post">
+       <fieldset>  
+           <legend>입력</legend>
+           <input type="text" name="user" id="inputText" value="" maxlength="5"/>
+           <label for="inputText"><span class="hidden">접속하실</span>아이디<span class="hidden">를 입력하세요</span></label>
+           <input type="password" name="pwd" id="pwd" value="" />
+           <label for="pwd">
+               <span class="hidden">아이디의</span>비밀번호<span class="hidden">를 입력하세요</span></label>
+               
+          
+        </fieldset>
+        
+         <fieldset>
+           <legend>선택</legend>
+           <p>당신의 성별을 입력하세요.</p>
+           <input type="radio" name="sex" checked="checked" id="male" value="male" />
+           <label for="male">남자입니다.</label>
+            <input type="radio" name="sex" id="female" value="female" />
+           <label for="female">여자입니다.</label>
+           <p>좋아하는 음식을 고르세요</p>
+           <input type="checkbox" name="select_sex" checked="checked" id="man" value="like man" />
+           <label for="man">남성을 좋아합니다.</label>
+           <input type="checkbox" name="select_sex" id="woman" value="like woman" />
+           <label for="woman">여성을 좋아합니다.</label>
+        </fieldset>
+         <fieldset>
+           <legend>버튼</legend>
+           <!--확인(submit), 취소(reset), 이미지(image)-->
+            <input type="submit" name="ok" id="ok" value="확인 및 전송" />
+            <label for="ok">확인</label>
+            
+            <input type="reset" name="cancle" id="cancle" value="작성 취소" />
+            <label for="cancle">취소</label>
+            
+            <input type="image" src="./i_1.png" name="images" id="images" value="확인 및 전송" />
+            <label for="images">이미지버튼</label>
+            
+            <input type="file" name="date" id="date" value="" />
+            <label for="date">자료전송</label>
+            
+            <input type="button" name="btn" id="btn" value="지도" />
+            <label for="btn">버튼</label>
+          
+        </fieldset>
+         <fieldset>
+           <legend>멀티</legend>
+           <label for="multi_text">대화창</label>
+           <textarea name="multi_text" id="multi_text" cols="30" rows="10" readonly="readonly">
+               여러줄 작성 할수 있는 형태의 입력창
+               반드시, 이곳에 계약서 형태는 사용하지 말것!
+               혹여나 사용했다면, ,속성으로  readonly 입력해서 수정이 불가능하도록 처리할것!
+           </textarea>
+           <label for="multi_selector">전화번호</label>
+           <select name="multi_selector" id="multi_selector">
+            <option>선택하세요</option>
+            <optgroup label="번호 확인1">
+               <option value="010">010</option>
+               <option value="011">011</option>
+               <option value="017">017</option>
+               </optgroup>
+            <optgroup labei="번호 확인2">
+               <option value="018">018</option>
+               <option value="019">019</option>
+               <option value="0505">0505</option>
+            </optgroup>
+           </select>
+           <button type="button" name="">확인</button>
+           
+        </fieldset>
+          
+       
+     </form>
+      
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
